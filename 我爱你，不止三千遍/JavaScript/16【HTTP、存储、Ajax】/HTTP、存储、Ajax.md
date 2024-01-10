@@ -499,7 +499,7 @@ Cookie 一般都是以 网址 或 IP 的形式进行标识。
 >document.cookie = 'username=alex; path=/course/list';	// /course/list 路径后的能访问
 >```
 
-> 注意：只有当 Name、Domain、Path 这 3 个属性都同时相等的时候，才是同一个 Dookie。
+> 注意：只有当 Name、Domain、Path 这 3 个属性都同时相等的时候，才是同一个 Cookie。
 
 - HttpOnly：设置了 HttpOnly 属性的 Cookie 不能通过 JS 去访问（为了安全性）
 - Secure 安全标志：限定了只有在使用了 https 而不是 http 的情况下才可以发送给服务端
